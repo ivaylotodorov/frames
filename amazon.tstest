@@ -1,0 +1,202 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerServerName": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "32524b76-1f1c-4677-9784-247968a7df8d",
+            "Description": "Navigate to : 'http://amazon.com'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "http://amazon.com",
+                "BaseUrl": "",
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "amazon3udx0l2n.gef",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "",
+              "Query": "",
+              "BaseUrl": "https://www.amazon.com/",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AmazonComOnlineShopping"
+            }
+          },
+          "Frame": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.Frame",
+            "__value": {
+              "FrameInfo": {
+                "__type": "ArtOfTest.WebAii.Core.FrameInfo",
+                "__value": {
+                  "_index": 0,
+                  "_name": "{\"slot\":\"Gateway_right-2_desktop\",\"slotName\":\"right-2\",\"src\":\"http://aax-us-east-retail-rtb.amazon.com/e/xsp/getAd?slot=right-2&rid=0101c48dcabeb4defad4c18ccbaeac88650964360caa8145c1d1aa2e1320f61866f1\",\"adServer\":\"aax\",\"campaignId\":\"7716\",\"arid\":\"996808c9daea4aa68650189236f73841\",\"size\":{\"width\":\"300px\",\"height\":\"250px\"},\"allowedSizes\":[{\"width\":\"300px\",\"height\":\"250px\"}],\"allowedDomains\":[\"g-ecx.images-amazon.com\",\"d3l3lkinz3f56t.cloudfront.net\",\"g-ecx.images-amazon.com\",\"z-ecx.images-amazon.com\",\"images-na.ssl-images-amazon.com\",\"g-ec4.images-amazon.com\",\"images-cn.ssl-images-amazon.com\"],\"aanParams\":\"site=amazon.us;pt=Gateway;slot=right-2;pid=36701;prid=WCDWZYR65PAT9MY8YBZW;arid=996808c9daea4aa68650189236f73841;ad-sid=0101a95b3a960d3deff3326ff4f94f1d8c1bfe030d24e08fd2b945b76379ea85a6b7\",\"loadAfter\":\"criticalFeature\",\"daJsUrl\":\"https://dq4ijymydgrfx.cloudfront.net/2017-03-13/feedback-us.js\",\"iframeExtraStyle\":\"\",\"iframeClass\":\"\",\"iframeSandbox\":\"\",\"feedbackJsUrl\":\"https://dq4ijymydgrfx.cloudfront.net/2017-03-13/feedback-us.js\",\"showInlineFeedback\":false,\"inlineFeedbackParams\":{},\"boolFeedback\":true,\"adPixels\":[],\"adPixelDelay\":\"0\",\"aaxImpPixelUrl\":\"https://aax-us-east.amazon-adsystem.com/e/xsp/imp?b=Qunft8zwtEW4tVfiJW4Z_PcAAAFa9QhTEwEAAAH1AUL-n1M\",\"aaxInstrPixelUrl\":\"https://aax-us-east.amazon-adsystem.com/x/px/Qunft8zwtEW4tVfiJW4Z_PcAAAFa9QhTEwEAAAH1AUL-n1M/\",\"usePrefetchRoute\":false,\"htmlContent\":\"\",\"htmlContentEncoded\":\"PCFET0NUWVBFIGh0bWw+PGh0bWw+PGJvZHk+PHN0eWxlPi5hY3tkaXNwbGF5OmJsb2NrO3Bvc2l0aW9uOmFic29sdXRlO292ZXJmbG93OmhpZGRlbjt3aWR0aDoxOXB4O2hlaWdodDoxNXB4O3otaW5kZXg6OTt0b3A6MDtyaWdodDowO2JhY2tncm91bmQ6dXJsKGh0dHBzOi8vaW1hZ2VzLW5hLnNzbC1pbWFnZXMtYW1hem9uLmNvbS9pbWFnZXMvRy8wMS9kYS9hZGNob2ljZXMvYWMtdG9wcmlnaHQtc3ByaXRlLnBuZyl9LmFjOmhvdmVye3dpZHRoOjc3cHg7YmFja2dyb3VuZC1wb3NpdGlvbjotMTlweCAwfS5oaWRle2Rpc3BsYXk6bm9uZSFpbXBvcnRhbnR9I2Fke3Bvc2l0aW9uOnJlbGF0aXZlO292ZXJmbG93OmhpZGRlbjt3aWR0aDozMDBweDtoZWlnaHQ6MjUwcHg7ZGlzcGxheTpub25lfTwvc3R5bGU+PGRpdiBpZD0iY3JlYXRpdmUtd3JhcHBlciIgc3R5bGU9IndpZHRoOiAxMDAlO2hlaWdodDoyNTBweDsiPgogIDxhIGlkPSJhZCIgaHJlZj0iaHR0cHM6Ly9hYXgtdXMtZWFzdC5hbWF6b24tYWRzeXN0ZW0uY29tL3gvYy9RdW5mdDh6d3RFVzR0VmZpSlc0Wl9QY0FBQUZhOVFoVEV3RUFBQUgxQVVMLW4xTS9odHRwczovL3d3dy5mYWJyaWMuY29tL3NhbGVzLWJ1eS1tb3JlLXNhdmUtbW9yZS0uYXNweC5mYWJyaWMuY29tP2NtX21tYz1BbWF6b24lMjBNYXJrZXRpbmctXy1HZW5lcmFsLV8tUjItXy1CdXklMjBNb3JlJTIwU2F2ZSUyME1vcmUiIHRhcmdldD0iX3RvcCIgPgo8aW1nIGlkPSJzdGF0aWNJbWFnZSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSI+PGEgaWQ9ImxvZ28iPjwvYT48YSBpZD0iYWFwSW5mbyIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSJoaWRlIGFjIiBocmVmPSJodHRwczovL3d3dy5hbWF6b24uY29tL2FkcHJlZnMvcmVmPWNzX2FhcF8yOTc5ODYxOTEwMTAxIj48L2E+PC9kaXY+PHNjcmlwdD5zZXRUaW1lb3V0KGZ1bmN0aW9uKCl7IWZ1bmN0aW9uKGEsZSx0KXt2YXIgbj0vXC5hbWF6b25cLmNvbSg6LiopPyQvLGM9InVuZGVmaW5lZCIhPXR5cGVvZiBJU18zUCYmSVNfM1AsaT0hMTtpZighYyl7dmFyIG89YTt0cnl7Zm9yKDtvIT1vLnBhcmVudDspe2lmKCFvLnBhcmVudC5kb2N1bWVudCl0aHJvdyBuZXcgRXJyb3IoImNyb3NzLWRvbWFpbiBleGNlcHRpb24iKTtvPW8ucGFyZW50fX1jYXRjaChyKXt9dHJ5e2k9by5TRkNsaWVudD9vLlNGQ2xpZW50LmlzT25BbWF6b24oKTpuLnRlc3Qoby5sb2NhdGlvbi5ob3N0KX1jYXRjaChyKXt9fXZhciBzPSFjJiYhaTtlLmFkPXthaWQ6IjkxNjcwNTAyODAzMDEiLGNpZDoiMjk3OTg2MTkxMDEwMSIsdzozMDAsaDoyNTAsdGVtcGxhdGU6IkltYWdlLTEuNTUifSxhLmFhblJlc3BvbnNlPXthZElkOmUuYWQuYWlkLGNyZWF0aXZlSWQ6ZS5hZC5jaWQsYWROZXR3b3JrOiJwZGEiLHNoYXphbVN0YWdlOiJwcm9kIixzaGF6YW1JZDoiNDQ1MjA3MSJ9O3RyeXt0JiZ0LmFkX3V0aWxzJiZ0LmFkX3V0aWxzLmV4cGFuZF9hZChmcmFtZUVsZW1lbnQpfWNhdGNoKHIpe312YXIgZD1mdW5jdGlvbihhKXtyZXR1cm4vcy8udGVzdChhLnByb3RvY29sKX0sbT1mdW5jdGlvbihhKXtyZXR1cm4gZS5nZXRFbGVtZW50QnlJZChhKX0scD1mdW5jdGlvbihhLGUsdCl7YS5ocmVmPWUsYS50YXJnZXQ9dD8iX2JsYW5rIjoiX3RvcCJ9LGY9ZnVuY3Rpb24oYSxlKXtyZXR1cm4gYS5jbGFzc05hbWUubWF0Y2gobmV3IFJlZ0V4cCgiKFxcc3xeKSIrZSsiKFxcc3wkKSIpKX0sbD1mdW5jdGlvbihhLGUpe2YoYSxlKXx8KGEuY2xhc3NOYW1lKz0iICIrZSl9LHU9ZnVuY3Rpb24oYSxlKXtpZihmKGEsZSkpe3ZhciB0PW5ldyBSZWdFeHAoIihcXHN8XikiK2UrIihcXHN8JCkiKTthLmNsYXNzTmFtZT1hLmNsYXNzTmFtZS5yZXBsYWNlKHQsIiAiKX19LGg9ZnVuY3Rpb24oYSl7dShhLCJoaWRlIil9LGc9KGQobG9jYXRpb24pPyIvL2ltYWdlcy1uYS5zc2wtIjoiLy9nLWVjeC4iKSsiaW1hZ2VzLWFtYXpvbi5jb20vaW1hZ2VzL0cvMDEvIixfPW0oImFhcEluZm8iKSx3PW0oImFkIiksdj0ic2hhemFtLzMwMHgyNTAtcjItcWJwLW1pbi1wS044aS5fVjUyNjM5MzA1MV8uanBnIix5PW0oInN0YXRpY0ltYWdlIik7diYmKHkuc3JjPWcrdix3LnN0eWxlLmRpc3BsYXk9ImJsb2NrIik7dmFyIHo7YyYmbCh3LCJhYXAiKSwoY3x8cykmJih3LnRhcmdldD0iX2JsYW5rIiksXyYmYyYmaChfKSx6JiZwKF8sImh0dHBzOi8vd3d3LmFtYXpvbi5jb20vYWRwcmVmcyIsITApO3ZhciBJPWEuU0ZDbGllbnQ7aWYoSSYmImZ1bmN0aW9uIj09dHlwZW9mIEkuY2hhbmdlU2l6ZSl0cnl7SS5jaGFuZ2VTaXplKCIzMDBweCIsIjI1MHB4Iil9Y2F0Y2gocil7fX0od2luZG93LGRvY3VtZW50LHBhcmVudCl9LDApOzwvc2NyaXB0Pgo8L2JvZHk+PC9odG1sPjwhLS0gY3JlYXRpdmVNb2REYXRlID0gMTQ3ODY4NjY5MzAwMCAtLT4=\",\"enableAdBlockerDetector\":true,\"disableResizeFunc\":true,\"fallbackStaticAdImgUrl\":\"https://images-na.ssl-images-amazon.com/images/G/01/ape/fallback/static/GW_Fallback_US_CA_._V280305700_.png\",\"fallbackStaticAdClickUrl\":\"https://www.amazon.com/b?node=2238192011&ref=houseads01-20\",\"fallbackStaticAdExtraStyle\":\"width=100% height=auto alt=\\\"Amazon Gift Cards\\\"\",\"adFeedbackInfo\":{\"adProgramId\":\"1001\",\"endPoint\":\"https://www.amazon.com/gp/ad-feedback/lazyLoad/handler/feedback-link-handler.html\",\"boolFeedback\":true,\"slugText\":\"Advertisement\"},\"adPlacementMetaData\":{\"pageUrl\":\"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9zaG9wcGluZ1BvcnRhbC9kZXNrdG9wL2FsbWR1ZGxlcj9fZW5jb2Rpbmc9VVRGOCZvcGZfcmVkaXI9MQ==\",\"adElementId\":\"ape_Gateway_right-2_desktop_placement\",\"pageType\":\"Gateway\",\"slotName\":\"right-2\"},\"adCreativeMetaData\":{\"adProgramId\":\"1001\",\"adImpressionId\":\"https://aax-us-east.amazon-adsystem.com/e/xsp/imp?b=Qunft8zwtEW4tVfiJW4Z_PcAAAFa9QhTEwEAAAH1AUL-n1M\",\"adCreativeId\":\"3167455901\",\"adId\":\"3120245001\",\"adNetwork\":\"aax\"},\"advertisementStyle\":{\"position\":\"absolute\",\"top\":\"2px\",\"right\":\"0px\",\"display\":\"inline-block\",\"font\":\"normal 11px Arial\",\"color\":\"grey\"},\"feedbackDivStyle\":{\"position\":\"relative\",\"height\":\"20px\",\"top\":\"2px\"},\"viewabilityStandards\":[{\"p\":0,\"t\":0,\"def\":\"amzn\"},{\"p\":50,\"t\":1,\"def\":\"iab\"},{\"p\":100,\"t\":0,\"def\":\"groupm\"}],\"ajaxWeblabTriggerId\":\"\",\"hostDomain\":\"https://www.amazon.com\",\"parentLocation\":\"https://www.amazon.com\",\"queryParams\":{},\"aPageStart\":1490169648180,\"adStartTime\":1490169648273}",
+                  "_id": "ape_Gateway_right-2_desktop_iframe",
+                  "TestStudioTag": "",
+                  "_baseURL": "https://images-na.ssl-images-amazon.com/images/G/01/dacx/sf/sf-1.43_FX1._V531651846_.html",
+                  "_query": "",
+                  "_useQuery": false,
+                  "_usesBaseUrlHost": false
+                }
+              },
+              "FriendlyName": "FrameApeGatewayRight2"
+            }
+          },
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": null,
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "ApeImpressionImage",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=ape_impression"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=img"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/img[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlImage",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      }
+    ],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "Frames.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "amazon.resx",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "amazon",
+    "Owner": "",
+    "Path": "amazon.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "d9f64a41-55dd-42d5-8235-f7d4c7343cbe",
+    "Id": "d9f64a41-55dd-42d5-8235-f7d4c7343cbe",
+    "ProjectId": "f770bfc3-3da3-4377-9cbd-dd6f90f2a514",
+    "Version": 200
+  }
+}
